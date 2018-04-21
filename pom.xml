@@ -102,12 +102,12 @@
               <id>nexus</id>
               <name>Mithun Technologies Releases Nexus Repository</name>
               <url>http://localhost:8086/pawan/repository/pawan-releases/</url>
-              </repository>
-           <snapshotRepository>
+             </repository>
+             <snapshotRepository>
               <id>nexus</id>
               <name>Mithun Technologies Snapshot Nexus Repository </name>
               <url>http://localhost:8086/pawan/repository/pawan-snapshots/</url>
-              </snapshotRepository>
+             </snapshotRepository>
            </distributionManagement>
  
    <profiles>
