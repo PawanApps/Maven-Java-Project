@@ -15,10 +15,10 @@ node {
           bat 'mvn clean install'
        }
 	   
-      stage('Sonar') {
+     /* stage('Sonar') {
                     //add stage sonar
                     bat 'mvn sonar:sonar'
-                }
+                }*/
 	    
 	stage('Checkstyle') {
                     bat 'mvn checkstyle:checkstyle'
